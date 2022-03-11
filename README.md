@@ -2,7 +2,7 @@
 
 Epic Minesweeper is a python terminal game, which runs in the Code Institute mock terminal on Heroku
 
-Users play a game of randomized minesweeper where if they dig in the wrong row and column comboniation they will blow up. 
+Users play a game of randomized minesweeper where if they dig in the wrong row and column combination they will blow up. 
 
 Here is a live version of the site: https://epic-minesweeper.herokuapp.com/
 
@@ -13,11 +13,11 @@ Here is a live version of the site: https://epic-minesweeper.herokuapp.com/
 
 Epic Minesweeper is a game heavily influenced by the classic game minesweeper. You may have played it if you own a windows computer, but if not you may read up on the rules and history on wikipedia: https://en.wikipedia.org/wiki/Minesweeper_(video_game)
 
-In this version, when the python is deployed a randomized board appears.
+In this version, when the program is ran a randomized board appears.
 
 It prompts the user to dig by entering an input in the format of row,column.
 
-The board has 9 rows and 9 columns meaning there is 81 possible inputs. 
+The board has 10 rows and 10 columns meaning there is 100 possible inputs. 
 
 The top left is 0,0 and the bottom right is 9,9
 
@@ -67,7 +67,7 @@ The class has methods to help play and display the game, such as the print metho
 
 ### Solved Bugs
 
-* When I originally wrote the project I was getting constant indentation errors due to trying to fit functions inside the 80 character limit. I took help from users on stack overflow to remedy this issue by properly indenting my functions using parenthesis. 
+* When I originally wrote the project I was getting constant indentation errors due to trying to fit functions inside the 80 character limit. I took help from users on stack overflow to remedy this issue by properly indenting my functions using brackets and parenthesis. 
 
 ### Remaining Bugs 
 
