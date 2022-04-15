@@ -1,5 +1,7 @@
 # EPIC MINESWEEPER 
 
+This is a resubmission of Python project 3
+
 Epic Minesweeper is a python terminal game, which runs in the Code Institute mock terminal on Heroku
 
 Users play a game of randomized minesweeper where if they dig in the wrong row and column combination they will blow up. 
@@ -69,6 +71,10 @@ The class has methods to help play and display the game, such as the print metho
 
 * When I originally wrote the project I was getting constant indentation errors due to trying to fit functions inside the 80 character limit. I took help from users on stack overflow to remedy this issue by properly indenting my functions using brackets and parenthesis. 
 
+* The game would crash when the user's input was invalid or empty. I fixed this by using a try and except function
+![try and except function](https://user-images.githubusercontent.com/93283135/163608733-8d634153-5a10-4c18-bca3-b75cb0ce3d0e.PNG)
+
+
 ### Remaining Bugs 
 
 * There are no remaining bugs. 
@@ -87,6 +93,11 @@ Steps for deployment:
 * Set the buildbacks to python and NodeJS in that order
 * Link the Heroku app to the repository
 * Click on Deploy
+
+## Resubmission Notes
+* The project failed due to lack of commits and the game crashing when the user inputs invalid or empty data
+* I fixed the latter by adding a try and except function to what was originally line 135 
+* I made a few more commits to amend this issue, but since I'm using the same repo and there was just the one issue it's quite difficult to add more commits.
 
 ## Credits
 
