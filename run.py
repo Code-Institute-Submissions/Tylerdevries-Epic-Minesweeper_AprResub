@@ -132,7 +132,11 @@ def play(dim_size=10, num_bombs=10):
         user_input = (
             re.split(',(\\s)*', input("Would you like to dig? row,col: "))
         )
-        row, col = int(user_input[0]), int(user_input[-1])
+        try:
+            row, col = int(user_input[0]), int(user_input[-1])
+        except:
+            print("Invalid Input")
+            continue
         if row < 0 or row >= board.dim_size or col < 0 or col >= dim_size:
             print("Invalid location. Try again.")
             continue
