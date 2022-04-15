@@ -128,7 +128,6 @@ def play(dim_size=10, num_bombs=10):
 
     while len(board.dug) < board.dim_size ** 2 - num_bombs:
         print(board)
-        # 0,0 or 0, 0 or 0,    0
         user_input = (
             re.split(',(\\s)*', input("Would you like to dig? row,col: "))
         )
